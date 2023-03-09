@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>
+    <title>scam car dealership</title>
+</head>
+<body>
+    <div class="top-Cars">
+        <h2>We have the following vehicles</h2>
+    </div>
+    <div class="type-filter-container">
+        <button id="showAllButton">Show All</button>
+        <button id="carButton">Show Cars</button>
+        <button id="motorcycleButton">Show Motorcycles</button>
+        <button id="bikeButton">Show Bikes</button>
+      </div>
+<div class="container">  
+    <div class="car-list-container">  
+    <ul id="carList"></ul>
+    </div>  
+    <div class="form-container">
+        <h2>Add new vehicles</h2>
+        <form id="vehicleForm">
+            <label for="vehicleType">Type:</label>
+            <select id="vehicleType" name="vehicleType">
+              <option value="car">Car</option>
+              <option value="motorcycle">Motorcycle</option>
+              <option value="bike">Bike</option>
+            </select>
+            <br>
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="model" required>
+            <br>
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" required>
+            <br>
+            <label for="miles">Miles:</label>
+            <input type="number" id="miles" name="miles" required>
+            <br>
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color" required>
+            <br>
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+            <br>
+            <label for="picture">Picture URL:</label>
+            <input type="url" id="picture" name="picture" required>
+            <br>
+            <button type="submit">Add Vehicle</button>
+          </form>
+    </div>
+</div> 
+
+</body>
+</html>

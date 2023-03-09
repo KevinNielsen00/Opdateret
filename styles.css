@@ -1,0 +1,76 @@
+.top-Cars {
+  text-align: center;
+  justify-content: center;
+  margin-right: 300px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vehicle {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid;
+  text-align: center;
+  background-color: #eee;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border: 1px solid;
+}
+
+.vehicle-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.car-list-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.vehicle-info {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 40px;
+}
+  
+.form-container {
+  flex: 0 0 300px;
+  background-color: #eee;
+  padding: 20px;
+  border: 1px solid #ccc;
+  justify-content: space-between;
+}
+
+.remove-button {
+  margin-left: 50px;
+  background-color: azure;
+}
+
+.type-filter-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 620px;
+  width: 350px;
+  justify-content: center;
+}
+
+.type-filter-container button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+
+}
+
+.type-filter-container button:hover {
+  background-color: #ddd;
+}
